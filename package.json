@@ -1,0 +1,37 @@
+{
+  "name": "js-tdd-curso",
+  "version": "1.0.0",
+  "description": "curso js com tdd",
+  "main": "teste.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "prepush": "npm run lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcusloren/js-tdd-curso.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "testes",
+    "js",
+    "es6",
+    "designpatterns"
+  ],
+  "author": "marcustorres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcusloren/js-tdd-curso/issues"
+  },
+  "homepage": "https://github.com/marcusloren/js-tdd-curso#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "husky": "^1.0.0-rc.2"
+  }
+}
